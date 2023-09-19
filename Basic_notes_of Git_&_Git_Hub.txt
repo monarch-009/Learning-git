@@ -1,0 +1,167 @@
+# GIT
+→ Version Control System is a tools that helps to track changes in code . Git is a Version Control System . It is very popular free  & Open Source Fast & scalable 
+
+- Track the History of the code .
+- To collaborate with many .
+
+# Configuring Git
+
+git config -- global [user.name](http://user.name) “Aditya”
+
+git config -- global [user.email](http://user.email)  “Aditya”
+
+git config --list
+
+cd      → change directory ( folder ) 
+
+cd ..   → back to previous directory 
+
+ls      → list of all file in directory 
+
+ls-a    → hidden files will be shown 
+
+pwd     → present working directory 
+
+clear   → To clear the terminal 
+
+# Commands of git
+
+Clone & Status 
+
+Clone →  Cloning  a repository on our local machine
+    
+    → It is used to make to duplicate copy of any repo from github to our local system .
+    
+    git clone <  - some link - >
+    
+Status → display the state of the code
+    
+    git status 
+    
+Some of status mode➖
+
+1. untracked  → new file that git does not yet track 
+2. modified   → changed 
+3. staged     → files is ready to be committed (After change and add)
+4. unmodified → unchanged  
+
+So if we have added anything new or change anything in the file or code we have to run some command .
+
+And if we add any file in our directory it will git status will show as untracked file . so we have add then commit it in terminal .
+
+Add & Commit 
+
+add → adds new or change files in our working directory to the Git staging area.
+    
+    git add < - file name - >
+    
+    git add .  (*for all the file which is in directory will we added if there is any      change in them* )
+    
+    -> staged is a condition after we add and check the status 
+
+commit → It is the record of change.
+    
+    git commit -m “some message”
+    
+Push Command 
+
+-> push - upload local repo content to remote repo means from our system to git hub
+    
+    git push origin main 
+    
+Init Command
+
+When we start any project we start with our local system only and then if we have to put that on the git hub this command will help us to maintain that.
+
+init  → used to create a new git repo
+
+git init
+
+git remote add origin <- link ->
+
+git remote -v           (to verify remote)
+
+git branch              (to check branch )
+
+git branch -M main      ( to rename branch)
+
+git push origin main
+
+
+#Git Branches
+
+Branch Commands 
+
+git branch                              (to check branch)
+
+git branch -M main                      (to rename branch)
+
+git checkout <- branch name ->          (to navigate)
+
+git checkout -b <- new branch name ->   (to create new branch)
+
+git branch -d < - branch name - >       (to delete branch)
+
+# Merging Code
+
+Way1
+
+git diff < - branch name - >  (to compare commits , branch , file & more )
+
+git merge < - branch name - > ( to merge 2 branches)
+
+Way 2
+
+Create a PR(pull request)
+
+Pull Request
+
+It lets you tell other about changes you have pushed to the  branch in a repository on Git-hub.
+
+Pull Command
+
+git pull origin main
+
+→ used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+
+Resolving Merge Conflicts
+
+→ An event that takes place when Git is unable to automatically resolve difference in code between two commits.
+
+#Undoing Changes
+
+Case1: staged changes
+
+git reset < - file name - >
+
+git reset
+
+Case2: commited changes (for one commit )
+
+git reset HEAD~1
+
+Case3:commited changes (for many commits)
+
+git reset < -commit hash - >
+
+git reset  - - hard < - commit hash - >
+
+GIT HUB
+
+Website that allows developer to store and mange their code using code. Folder of Github is called Repository 
+
+https://github.com/
+
+[README.md](http://README.md) → md means Mark down 
+
+- To finalize any changes we do commit
+- But first we have to  add what to changes.
+
+# Work-Flow
+
+1. Git-Hub Repo⤵️
+2. clone⤵️
+3. changes⤵️
+4. add⤵️
+5. commit ⤵️
+6. push → END
