@@ -1,4 +1,5 @@
 # GIT
+Git is a free and open-source version control system, originally created by Linus Torvalds in 2005
 → Version Control System is a tools that helps to track changes in code . Git is a Version Control System . It is very popular free  & Open Source Fast & scalable 
 
 - Track the History of the code .
