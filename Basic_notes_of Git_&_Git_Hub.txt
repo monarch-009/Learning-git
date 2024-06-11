@@ -5,7 +5,7 @@ Git is a free and open-source version control system, originally created by Linu
 - Track the History of the code .
 - To collaborate with many .
 
-# Configuring Git
+# Configuring Git 
 
 git config -- global [user.name](http://user.name) “Aditya”
 
