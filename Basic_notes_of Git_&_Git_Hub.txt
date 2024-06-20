@@ -11,7 +11,7 @@ git config -- global [user.name](http://user.name) “Aditya”
 
 git config -- global [user.email](http://user.email)  “Aditya”
 
-git config --list
+git config --list 
 
 cd      → change directory ( folder ) 
 
